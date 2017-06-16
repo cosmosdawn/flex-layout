@@ -39,8 +39,8 @@
             <h1>Tow Point</h1>
             <div class="two-point">
                 <div class="left-up-right-down">
-                    <span class="item1"></span>
-                    <span class="item2"></span>
+                    <span class="item10"></span>
+                    <span class="item11"></span>
                 </div>
             </div>
         </div>
@@ -146,9 +146,30 @@
         height: 150px;
     }
     .two-point div{
+        width: 90px;
+        height: 90px;
+        background-color: aliceblue;
+        border-radius: 5px;
         display: flex;
     }
-
+    .two-point span{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .left-up-right-down{
+        justify-content: space-between;
+    }
+    .item10{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .item11{
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
     .three-point{
         display: flex;
         flex-direction: row;
