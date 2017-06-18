@@ -56,6 +56,14 @@
                     <span class="item17"></span>
                 </div>
             </div>
+            <h1>Three Point</h1>
+            <div class="three-point">
+                <div class="three-1">
+                    <span class="item21"></span>
+                    <span class="item22"></span>
+                    <span class="item23"></span>
+                </div>
+            </div>
         </div>
 </body>
 <style>
@@ -116,12 +124,15 @@
         margin-bottom: 5px;
     }
     .mid-right-up{
-       flex-direction: column;
-        justify-content:flex-end;
-        align-items:center;
+        justify-content: space-between;
+    }
+    .item16{
+        margin-top: 5px;
+        margin-left: 5px;
     }
     .item17{
-        align-self: flex-end;
+        align-self: center;
+        margin-right: 33px;               /*注意这里其实是针对容器和项目自身的尺寸做了合适的位移达到的居中效果*/
     }
     .three-point{
         display: flex;
@@ -131,6 +142,34 @@
         background-color: black;
         width: 90%;
         height: 150px;
+    }
+    .three-point div{
+        width: 90px;
+        height: 90px;
+        background-color: aliceblue;
+        border-radius: 5px;
+        display: flex;
+    }
+    .three-point div span{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .three-1{
+        justify-content: space-between;
+    }
+    .item21{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .item22{
+        align-self: center;
+    }
+    .item23{
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-right: 5px;
     }
     .four-point{
         display: flex;
