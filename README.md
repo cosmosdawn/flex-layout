@@ -14,5 +14,5 @@
 * flex-basis: 定义了在分配多余空间之前，项目占据的主轴的空间。
 * flex: 是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。
 * align-self: 允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
-### 目前进度(完成) 觉得哪里不好欢迎提Issue哦，若是对你有帮助希望给我颗小星星哦星星☺
-![Alt text](img/无标题.PNG)
+### 目前进度(完成) 觉得哪里不好欢迎提Issue哦，若是对你有帮助希望给我颗小星星哦☺
+![Alt text](img/points.PNG)
