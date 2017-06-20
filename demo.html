@@ -37,7 +37,7 @@
                     <span class="item9"></span>
                 </div>
             </div>
-            <h1>Tow Point</h1>
+            <h1>Two Point</h1>
             <div class="two-point">
                 <div class="left-up-right-down">
                     <span class="item10"></span>
@@ -54,6 +54,46 @@
                 <div class="mid-right-up">
                     <span class="item16"></span>
                     <span class="item17"></span>
+                </div>
+                <div class="mid-left-up" style="display: block">
+                    <div class="top" style="height: 30px;display: flex;justify-content: flex-end;">
+                        <span style="margin-right: 5px;margin-top: 5px;"></span>
+                    </div>
+                    <div class="mid" style="height: 30px;;display: flex;justify-content: center">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="mid-bottom-left" style="display: flex;flex-direction: row">
+                    <div class="mid" style="display: flex;width: 30px;height: 100%;flex-direction: column;justify-content: flex-end;">
+                        <span style="margin-left: 5px;margin-bottom: 5px;"></span>
+                    </div>
+                    <div class="left" style="display: flex;width: 30px;height: 100%;flex-direction: column;justify-content: center;">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bottom-mid-right" style="display:flex;flex-direction: row">
+                    <div style="display: flex;flex-direction: column;justify-content: center;width: 30px;height: 100%;margin-left: 30px">
+                        <span></span>
+                    </div>
+                    <div style="display: flex;flex-direction: column;justify-content: flex-end;width: 30px;height: 100%;">
+                        <span style="margin-bottom: 5px;margin-right: 5px;"></span>
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-between">
+                    <span style="align-self: flex-end;margin-bottom: 5px;margin-left: 5px"></span>
+                    <span style="margin-right: 5px;margin-top: 5px;"></span>
+                </div>
+                <div style="display: flex;justify-content: space-between;align-items: center;">
+                    <span style="margin-left: 5px;"></span>
+                    <span style="margin-right: 5px;"></span>
+                </div>
+            </div>
+            <h1>Three Point</h1>
+            <div class="three-point">
+                <div class="three-1">
+                    <span class="item21"></span>
+                    <span class="item22"></span>
+                    <span class="item23"></span>
                 </div>
             </div>
         </div>
@@ -116,12 +156,15 @@
         margin-bottom: 5px;
     }
     .mid-right-up{
-       flex-direction: column;
-        justify-content:flex-end;
-        align-items:center;
+        justify-content: space-between;
+    }
+    .item16{
+        margin-top: 5px;
+        margin-left: 5px;
     }
     .item17{
-        align-self: flex-end;
+        align-self: center;
+        margin-right: 33px;               /*注意这里其实是针对容器和项目自身的尺寸做了合适的位移达到的居中效果*/
     }
     .three-point{
         display: flex;
@@ -131,6 +174,34 @@
         background-color: black;
         width: 90%;
         height: 150px;
+    }
+    .three-point div{
+        width: 90px;
+        height: 90px;
+        background-color: aliceblue;
+        border-radius: 5px;
+        display: flex;
+    }
+    .three-point div span{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .three-1{
+        justify-content: space-between;
+    }
+    .item21{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .item22{
+        align-self: center;
+    }
+    .item23{
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-right: 5px;
     }
     .four-point{
         display: flex;
